@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+// import OtpInput from "./useRef/OtpInput";
+// import RefForm from "./useRef/RefForm";
+// import UseEffect from "./useEffect/UseEffect";
+// import PrevCount from "./useRef/PrevCount";
+import ApiEffect from "./useEffect/ApiEffect";
+// import Form from "./todo/Form";
+// import UseMemo from "./useMemo/UseMemos";
+// import UseCallback from "./useMemo/UseCallback";
+// import RefState from "./useRef/RefState";
+// import UseMemoCallBack from "./useMemo/UseMemoCallBack";
+import Assignment from "./todo/Assignment";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <OtpInput /> */}
+      {/* <RefForm /> */}
+      {/* <UseEffect /> */}
+      {/* <PrevCount /> */}
+      {/* <ApiEffect /> */}
+      {/* <Form /> */}
+      {/* <UseMemo /> */}
+      {/* <UseCallback /> */}
+      {/* <RefState /> */}
+      {/* <UseMemoCallBack /> */}
+      <Assignment />
     </div>
   );
 }
