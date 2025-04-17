@@ -9,7 +9,8 @@ import ApiEffect from "./useEffect/ApiEffect";
 // import UseCallback from "./useMemo/UseCallback";
 // import RefState from "./useRef/RefState";
 // import UseMemoCallBack from "./useMemo/UseMemoCallBack";
-import Assignment from "./todo/Assignment";
+// import Assignment from "./todo/Assignment";
+import GuessNum from "./guessNum/GuessNum";
 function App() {
   return (
     <div className="App">
@@ -23,7 +24,8 @@ function App() {
       {/* <UseCallback /> */}
       {/* <RefState /> */}
       {/* <UseMemoCallBack /> */}
-      <Assignment />
+      {/* <Assignment /> */}
+      <GuessNum />
     </div>
   );
 }
