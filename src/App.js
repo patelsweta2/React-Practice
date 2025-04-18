@@ -3,14 +3,15 @@ import "./App.css";
 // import RefForm from "./useRef/RefForm";
 // import UseEffect from "./useEffect/UseEffect";
 // import PrevCount from "./useRef/PrevCount";
-import ApiEffect from "./useEffect/ApiEffect";
+// import ApiEffect from "./useEffect/ApiEffect";
 // import Form from "./todo/Form";
 // import UseMemo from "./useMemo/UseMemos";
 // import UseCallback from "./useMemo/UseCallback";
 // import RefState from "./useRef/RefState";
 // import UseMemoCallBack from "./useMemo/UseMemoCallBack";
 // import Assignment from "./todo/Assignment";
-import GuessNum from "./guessNum/GuessNum";
+// import GuessNum from "./guessNum/GuessNum";
+import StringtransForm from "./easy/StringtransForm";
 function App() {
   return (
     <div className="App">
@@ -25,7 +26,8 @@ function App() {
       {/* <RefState /> */}
       {/* <UseMemoCallBack /> */}
       {/* <Assignment /> */}
-      <GuessNum />
+      {/* <GuessNum /> */}
+      <StringtransForm/>
     </div>
   );
 }
