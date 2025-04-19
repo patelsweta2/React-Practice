@@ -1,18 +1,38 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
 }
 
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  border: 1px solid black;
+  padding: 2px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  cursor: pointer;
+}
 
 button {
-    cursor: pointer;
-    width: 100px;
-    padding: 4px;
+  cursor: pointer;
+  width: 100px;
+  padding: 4px;
 }
-.buttonContainer{
-    display: flex;
-    gap: 5px;
+.buttonContainer {
+  display: flex;
+  gap: 5px;
 }

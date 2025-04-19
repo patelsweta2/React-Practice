@@ -11,7 +11,8 @@ import "./App.css";
 // import UseMemoCallBack from "./useMemo/UseMemoCallBack";
 // import Assignment from "./todo/Assignment";
 // import GuessNum from "./guessNum/GuessNum";
-import StringtransForm from "./easy/StringtransForm";
+// import StringtransForm from "./easy/StringtransForm";
+import GridLights from "./medium/GridLight";
 function App() {
   return (
     <div className="App">
@@ -27,7 +28,8 @@ function App() {
       {/* <UseMemoCallBack /> */}
       {/* <Assignment /> */}
       {/* <GuessNum /> */}
-      <StringtransForm/>
+      {/* <StringtransForm/> */}
+      <GridLights />
     </div>
   );
 }
