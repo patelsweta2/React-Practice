@@ -13,7 +13,8 @@ import "./App.css";
 // import GuessNum from "./guessNum/GuessNum";
 // import StringtransForm from "./easy/StringtransForm";
 // import GridLights from "./medium/GridLight";
-import InfiniteScroll from "./medium/InfiniteScroll";
+// import InfiniteScroll from "./medium/InfiniteScroll";
+import ChipsInput from "./medium/ChipsInput";
 function App() {
   return (
     <div className="App">
@@ -31,7 +32,8 @@ function App() {
       {/* <GuessNum /> */}
       {/* <StringtransForm/> */}
       {/* <GridLights /> */}
-      <InfiniteScroll />
+      {/* <InfiniteScroll /> */}
+      <ChipsInput />
     </div>
   );
 }
