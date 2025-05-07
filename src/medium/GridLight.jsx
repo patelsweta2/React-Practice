@@ -1,17 +1,18 @@
 import React, { useState, useEffect } from "react";
 
 const GridLight = () => {
-  const [isClicked, setIsClicked] = useState(Array(9).fill(false));
+  const [isClicked, setIsClicked] = useState(Array(3).fill(false));
   const [indexOrder, setIndexOrder] = useState([]);
   const handleClick = (index) => {
-    if (!isClicked[index] && indexOrder.length < 9) {
+    if (!isClicked[index] && indexOrder.length < 3) {
       const newClicked = [...isClicked];
       newClicked[index] = true;
       setIsClicked(newClicked);
       setIndexOrder((prev) => {
         const updated = [...prev, index];
 
-        if (updated.length === 9) {
+        if (updated.length === 3) {
+          
           startAnimation([...updated].reverse());
         }
 
@@ -21,6 +22,7 @@ const GridLight = () => {
   };
 
   const startAnimation = (reversedArray) => {
+    console.log("reverse", reversedArray);
     reversedArray.forEach((index, i) => {
       setTimeout(() => {
         setIsClicked((prev) => {

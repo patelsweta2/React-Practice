@@ -14,7 +14,13 @@ import "./App.css";
 // import StringtransForm from "./easy/StringtransForm";
 // import GridLights from "./medium/GridLight";
 // import InfiniteScroll from "./medium/InfiniteScroll";
-import ChipsInput from "./medium/ChipsInput";
+// import ChipsInput from "./medium/ChipsInput";
+// import Taskone from "./taskManagement/Taskone";
+// import Task from "./taskManagement/Task";
+// import Calculator from "./medium/Calculator";
+// import TrafficLights from "./medium/TrafficLights";
+// import NestedComments from "./hard/nestedComments/NestedComments";
+import { Timer } from "./medium/Timer";
 function App() {
   return (
     <div className="App">
@@ -33,7 +39,13 @@ function App() {
       {/* <StringtransForm/> */}
       {/* <GridLights /> */}
       {/* <InfiniteScroll /> */}
-      <ChipsInput />
+      {/* <ChipsInput /> */}
+      {/* <Task/> */}
+      {/* <Taskone/> */}
+      {/* <Calculator /> */}
+      {/* <TrafficLights /> */}
+      {/* <NestedComments /> */}
+      <Timer />
     </div>
   );
 }
