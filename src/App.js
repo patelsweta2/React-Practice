@@ -20,7 +20,15 @@ import "./App.css";
 // import Calculator from "./medium/Calculator";
 // import TrafficLights from "./medium/TrafficLights";
 // import NestedComments from "./hard/nestedComments/NestedComments";
-import { Timer } from "./medium/Timer";
+// import { Timer } from "./medium/Timer";
+// import PopUpHome from "./medium/popup/PopUpHome";
+// import ToastHome from "./component/medium/globalToast/ToastHome";
+// import PopUpHome from "./medium/popup/PopUpHome";
+// import ColumnTable from "./component/medium/columnTable/ColumnTable";
+// import TransferList from "./component/medium/transferList/TransferList";
+// import ColumnTable from "./component/medium/columnTable/ColumnTable";
+// import ChipsInput from "./medium/ChipsInput";
+import TodoTask from "./component/medium/todo/TodoTask";
 function App() {
   return (
     <div className="App">
@@ -45,7 +53,15 @@ function App() {
       {/* <Calculator /> */}
       {/* <TrafficLights /> */}
       {/* <NestedComments /> */}
-      <Timer />
+      {/* <Timer /> */}
+      {/* <PopUpHome /> */}
+      {/* <ToastHome /> */}
+      {/* <PopUpHome /> */}
+      {/* <ColumnTable /> */}
+      {/* <TransferList /> */}
+      {/* <ColumnTable /> */}
+      {/* <ChipsInput /> */}
+      <TodoTask />
     </div>
   );
 }
