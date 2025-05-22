@@ -28,7 +28,8 @@ import "./App.css";
 // import TransferList from "./component/medium/transferList/TransferList";
 // import ColumnTable from "./component/medium/columnTable/ColumnTable";
 // import ChipsInput from "./medium/ChipsInput";
-import TodoTask from "./component/medium/todo/TodoTask";
+// import TodoTask from "./component/medium/todo/TodoTask";
+import InfiniteScrolling from "./component/medium/infiniteScrolling/InfiniteScrolling";
 function App() {
   return (
     <div className="App">
@@ -61,7 +62,8 @@ function App() {
       {/* <TransferList /> */}
       {/* <ColumnTable /> */}
       {/* <ChipsInput /> */}
-      <TodoTask />
+      {/* <TodoTask /> */}
+      <InfiniteScrolling />
     </div>
   );
 }
